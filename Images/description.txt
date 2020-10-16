@@ -1,0 +1,1 @@
+This folder includes images that are used in the project. The images are only used to give the application a good look.
