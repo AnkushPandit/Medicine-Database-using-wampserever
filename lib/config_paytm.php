@@ -7,10 +7,14 @@
 - Above details will be different for testing and production environment.
 */
 
+/* Author's Note: we created our key and MID after creating an account in paytm
+   IT is not a difficult process, follow any youtube tutorial.
+   Link:  https://youtu.be/s7GyXQdAQ_Q
+*/
 define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
-define('PAYTM_MERCHANT_KEY', 'imdVquiv3FCylueW'); //Change this constant's value with Merchant key received from Paytm.
-define('PAYTM_MERCHANT_MID', 'qqeAFr79707619555473'); //Change this constant's value with MID (Merchant ID) received from Paytm.
-define('PAYTM_MERCHANT_WEBSITE', 'WEBSTAGING'); //Change this constant's value with Website name received from Paytm.
+define('PAYTM_MERCHANT_KEY', 'YOUR_KEY'); //Change this constant's value with Merchant key received from Paytm.
+define('PAYTM_MERCHANT_MID', 'YOUR_MID'); //Change this constant's value with MID (Merchant ID) received from Paytm.
+define('PAYTM_MERCHANT_WEBSITE', 'WEBSITE_NAME'); //Change this constant's value with Website name received from Paytm.
 
 $PAYTM_STATUS_QUERY_NEW_URL='https://securegw-stage.paytm.in/merchant-status/getTxnStatus';
 $PAYTM_TXN_URL='https://securegw-stage.paytm.in/theia/processTransaction';
