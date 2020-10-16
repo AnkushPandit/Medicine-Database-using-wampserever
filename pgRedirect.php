@@ -25,7 +25,7 @@ $paramList["TXN_AMOUNT"] = $TXN_AMOUNT;
 $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 
 
-$paramList["CALLBACK_URL"] = "http://localhost/FinalYearProject/pgResponse.php";
+$paramList["CALLBACK_URL"] = "http://localhost/FinalYearProject/pgResponse.php"; // The path is of our local device
 /*aramList["MSISDN"] = $MSISDN; //Mobile number of customer
 $paramList["EMAIL"] = $EMAIL; //Email ID of customer
 $paramList["VERIFIED_BY"] = "EMAIL"; //
